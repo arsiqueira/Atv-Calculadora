@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5cecf !important;
+}
+
+.container{
+    margin-top: 2rem;
+    background-color: #ffffffb0;
+    border-radius: 5px;
+    padding:2rem;
+}
+
+.btn-primary {
+    background-color: #F7AFB1 !important;
+    border-color: transparent !important;
+
+}
+.btn-primary:hover{
+    background-color: #fa9396 !important;
+
+}
+
+.titulos{
+    font-size: 20px;
+}
