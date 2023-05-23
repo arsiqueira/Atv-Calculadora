@@ -1,6 +1,4 @@
-//Altera o título da tabela
-var titulo = document.querySelector(".titulo");
-titulo.textContent = "Calculadora de Lucro";
+
 
 //Captura os dados de todos os clientes
 var clientes = document.querySelectorAll(".cliente");

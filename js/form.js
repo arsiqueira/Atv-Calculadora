@@ -37,7 +37,7 @@ function adicionaEncomendaNaTabela(encomenda){
     var encomendaTr = montaTr(encomenda);
     var tabela = document.querySelector("#tabela-clientes");
     var resultado = document.querySelector("#result");
-    resultadoPercent.textContent = CalculaPorcentagem();
+    var resultadoPercent = document.querySelector("#result-percent");
     tabela.appendChild(encomendaTr);
     //Resultados do calculo
     resultado.textContent = Calcula();
